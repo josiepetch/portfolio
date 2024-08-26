@@ -6,6 +6,7 @@ import { Project } from './components/project'
 import { Booking } from './components/project/booking'
 import { Dashboard } from './components/project/dashboard'
 import { Logbook } from './components/project/logbook'
+import { Memory } from './components/project/memory'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/project/booking" element={<Booking />} />
         <Route path="/project/dashboard" element={<Dashboard />} />
         <Route path="/project/logbook" element={<Logbook />} />
+        <Route path="/project/memory" element={<Memory />} />
       </Route>
     </Routes>
   )

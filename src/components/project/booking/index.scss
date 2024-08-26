@@ -1,0 +1,30 @@
+@import '@/App.scss';
+
+.booking-page {
+    overflow: overlay;
+    scrollbar-color: #ffd700 #115173;
+
+    .detail {
+        position: absolute;
+        left: 10%;
+        top: 45%;
+        transform: translateY(-50%);
+        width: 80%;
+        max-height: 90%;
+        color: #fff;
+        font-weight: 400;
+
+        .img-zone {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            div {
+                img {
+                    width: 100%;
+                    max-width: 400px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+$primary-color: #ffd700;
+
+@import 'index.css';
+@import 'animate.css';
+@import 'animate.css/animate.min.css';
+// @import '~loaders.css/src/animations/pacman.scss';
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./assets/font/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./assets/font/JosefinSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'La Belle Aurore';
+    src: url('./assets/font/LaBelleAurore-Regular.ttf') format('ttf');
+}
+
+input,
+textarea {
+    font-family: 'Helvetica Neue';
+}
+
+// for ./project/*
+.flexListFilled {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    div {
+        background: #fff;
+        color: #115173;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+// .loader-hidden {
+//     display: none;
+//   }
+
+//   .loader-active {
+//     display: block;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     margin: auto;
+//     top: 0;
+//     bottom: 0;
+//     width: 50px;
+//     height: 50px;
+//     animation: fadeOut 1s 1s;
+//     animation-fill-mode: forwards;
+//   }

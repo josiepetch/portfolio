@@ -45,10 +45,12 @@
     .tags {
         &.top-tags {
             top: 0;
+            left: 35px;
         }
 
         &.bottom-tags {
-            bottom: 40px;
+            bottom: 25px;
+            left: 35px;
         }
     }
 
